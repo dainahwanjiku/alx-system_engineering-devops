@@ -9,4 +9,4 @@ the eighth script shows how to move the file betty from /tmp/ to /tmp/my_first_d
 the ninth script shows how to delete the file betty
 the tenth script shows how to delete the directory my_first_directory that is in the /tmp/ directory.
 a script that changes the working directory to the previous one
-a sscript list all files in the current directory even the hidden ones in the current directory, parent 
+a script list all files in the current directory even the hidden ones in the current directory, parent. 
