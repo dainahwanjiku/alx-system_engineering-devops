@@ -1,6 +1,3 @@
 #!/bin/bash
-<<<<<<< HEAD
 su betty
-=======
 su -l [betty]
->>>>>>> master
