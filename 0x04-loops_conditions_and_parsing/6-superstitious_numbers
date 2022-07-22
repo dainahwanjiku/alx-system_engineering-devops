@@ -2,7 +2,7 @@
 # displays numbers from 1 to 20 and:
 # displays 4 and then bad luck from china for the 4th loop iteration.
 # displays 9 and then bad luck from japan for the 9th loop iteration.
-# displays 17 and then bad luck from italy for the 17th loop
+# displays 17 and then bad luck from italy for the 17th loop.
 
 i=1
 
