@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# displays "best school" 10 times but for the 9th iteration displays "hi" 
+# displays "best school" 10 times but for the 9th iteration
+# displays best school and then "hi" on a new line.
 
 i=0
 
