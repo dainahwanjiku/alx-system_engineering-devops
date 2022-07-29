@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# a script that configures an ubuntu server with the requirements:
+# a script that configures an ubuntu server
+# requirements:
 # localhost reolves to 127.0.0.2
 # facebook.com resolves to 8.8.8.8
 
