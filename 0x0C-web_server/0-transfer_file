@@ -2,7 +2,7 @@
 # Transfer file `file` to a server
 #scp /path/to/file username@a:/path/to/destination
 # Handcoded: scp -i ~/.ssh/id_rsa README.md ubuntu@3.238.179.145:/tmp
-i
+
 #If number of arguments is >= 3
 if [ $# -ge 3 ]
 then
