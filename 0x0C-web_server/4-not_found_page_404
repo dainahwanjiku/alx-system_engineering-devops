@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/biiin/env bash
 # Install nginx and start it
 apt-get -y install nginx
 
