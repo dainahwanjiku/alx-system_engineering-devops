@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Configure new nginx server to have a custom header
+# Configure new nginx server to have a custom header.
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
