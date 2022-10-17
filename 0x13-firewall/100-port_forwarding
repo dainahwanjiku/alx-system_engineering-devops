@@ -19,11 +19,15 @@
 
 # allow all on loopback
 -A ufw-before-input -i lo -j ACCEPT
+<<<<<<< HEAD
 -A ufw-before-output -o lo -j ACNPUT
 -A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
 -A ufw-before-input -p icmp --icmp-type echo-CEPT
+=======
+-A ufw-before-output -o lo -j ACCEPT
+>>>>>>> refs/remotes/origin/master
 
 # quickly process packets for which we already have a connection
 -A ufw-before-input -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
@@ -34,7 +38,15 @@
 -A ufw-before-input -m conntrack --ctstate INVALID -j ufw-logging-deny
 -A ufw-before-input -m conntrack --ctstate INVALID -j DROP
 
+<<<<<<< HEAD
 # ok icmp codes for Irequest -j ACCEPT
+=======
+# ok icmp codes for INPUT
+-A ufw-before-input -p icmp --icmp-type destination-unreachable -j ACCEPT
+-A ufw-before-input -p icmp --icmp-type time-exceeded -j ACCEPT
+-A ufw-before-input -p icmp --icmp-type parameter-problem -j ACCEPT
+-A ufw-before-input -p icmp --icmp-type echo-request -j ACCEPT
+>>>>>>> refs/remotes/origin/master
 
 # ok icmp code for FORWARD
 -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j ACCEPT
